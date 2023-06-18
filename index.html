@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
 
     <title>GTM Demo</title>
 </head>
@@ -34,7 +35,8 @@
             </div>
         </header>
         <div class="main-content">
-            <a href="?key=key&value=value">Add query parameters</a>
+            <button onclick="location.href='?key=key&value=value'">Add query parameters</button></a>
+            <button onclick="logHttpBin()">Send request to httpbin</button>
         </div>
     </div>
 </body>
